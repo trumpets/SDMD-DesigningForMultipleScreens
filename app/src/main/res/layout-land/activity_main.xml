@@ -14,19 +14,17 @@
         android:id="@+id/img_illidan"
         android:layout_centerVertical="true"
         android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@id/tv_illidan"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/illidan"/>
+        android:src="@drawable/illidan"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="20dp" />
 
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_toRightOf="@id/img_illidan">
+        android:layout_toEndOf="@id/img_illidan">
 
         <TextView
             android:layout_width="wrap_content"
